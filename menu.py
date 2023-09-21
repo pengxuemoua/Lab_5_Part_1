@@ -1,5 +1,9 @@
 """
 A menu - you need to add the database and fill in the functions. 
+
+This program interacts with a database. The database store data for chainsaw jugglers. You can display all records, 
+search the data of a juggler by name, add a new record, edit an existin record, delete a record and quit the program.
+
 """
 import sqlite3
 from sqlite3 import connect
